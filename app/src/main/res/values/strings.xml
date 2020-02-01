@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Vital Dent CIX 2019</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Clínica Dental Vital Dent Cix</string>
+    <string name="nav_header_subtitle">www.vitaldentcix.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_servicios">Servicios</string>
+    <string name="title_activity_contacto">Contáctanos</string>
+    <string name="title_activity_paciente_antiguo">Paciente antiguo</string>
+    <string name="title_activity_paciente_nuevo">Paciete nuevo</string>
+    <string name="title_activity_paciente_regular">Paciente regular</string>
+    <string name="title_activity_solicitar_citas">Solicita tu cita</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="title_activity_quienes_somos">Quiénes somos</string>
+    <string name="title_activity_vital_dent_cixinicio">Vital Dent CIX</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_seleccionar">Seleccione</string>
+    <string name="title_activity_consulta">Consulte la fecha de su consulta aquí</string>
+    <string name="title_activity_registro">Registro de nuevo paciente</string>
+</resources>

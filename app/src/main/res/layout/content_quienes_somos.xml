@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".QuienesSomos"
+    tools:showIn="@layout/app_bar_quienes_somos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tex1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Misión"
+                android:textColor="#ff4800"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="@font/roboto_thin"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="29dp" />
+
+            <TextView
+                android:id="@+id/tex1_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:text="Brindar servicios odontológicos integrales contribuyendo a resolver eficazmente los problemas de salud Oral de nuestros pacientes, aplicando para ello conceptos de excelencia en el servicio, eficiencia en la gestión y calidez personalizada en la atención."
+                android:textAllCaps="false"
+                android:textColor="#828282"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="57dp" />
+
+            <TextView
+                android:id="@+id/tex2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Visión"
+                android:textColor="#ff4800"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="@font/roboto_thin"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <TextView
+                android:id="@+id/tex2_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="20dp"
+                android:text="Ser la clínica odontológica líder en la zona del Perú con lo más avanzado en tecnología y con especialistas que reúnan los requisitos máximos de profesionalismo y excelencia, para satisfacer al máximo las exigencias de nuestros pacientes "
+                android:textAllCaps="false"
+                android:textColor="#828282"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="224dp" />
+
+            <TextView
+                android:id="@+id/tex3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Valores"
+                android:textColor="#ff4800"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="@font/roboto_thin"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="351dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="32dp"
+                app:srcCompat="@drawable/valor" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

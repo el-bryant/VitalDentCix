@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PacienteAntiguo"
+    tools:showIn="@layout/app_bar_paciente_antiguo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDoctorAntiguo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvHistoriaAntiguo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvFechaAntiguo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lbl13a"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Seleccione la hora de su cita:"
+                android:textColor="#ff4800"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:fontFamily="@font/roboto_thin"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5">
+
+                    <RadioButton
+                        android:id="@+id/a0900am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="09:00am"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a0940am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="09:40am"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a1020am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10:20am"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a1100am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11:00am"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a1140am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11:40am"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a1220pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12:20pm"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a0400pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="04:00pm"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a0440pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="04:40pm"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a0520pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="05:20pm"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a0600pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="06:00pm"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a0640pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="06:40pm"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                    <RadioButton
+                        android:id="@+id/a0720pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="07:20pm"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"/>
+
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:id="@+id/tva0900am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva0940am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva1020am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva1100am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva1140am"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva1220pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva0400pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva0440pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva0520pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva0600pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva0640pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:id="@+id/tva0720pm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Libre"
+                        android:textAppearance="?attr/radioButtonStyle"
+                        android:textColor="@color/verde"
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar consulta"
+                android:onClick="onConsultaPacienteAntiguo"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

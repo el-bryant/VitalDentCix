@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_inicio"
+            android:title="Inicio"
+            android:icon="@drawable/ic_home_black_24dp"/>
+
+        <item android:id="@+id/nav_solicitar"
+            android:title="Solicitar Citas"
+            android:icon="@drawable/ic_insert_invitation_black_24dp"/>
+
+        <item android:id="@+id/nav_promociones"
+            android:title="Servicios"
+            android:icon="@drawable/ic_local_offer_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_contacto"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Contactanos" />
+        <item
+            android:id="@+id/nav_consulta"
+            android:title="Consulte la hora de su cita aquí"
+            android:icon="@drawable/ic_consultar_cita_24dp"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:title="Sobre Vital Dent Cix" />
+        </menu>
+    </item>
+</menu>
